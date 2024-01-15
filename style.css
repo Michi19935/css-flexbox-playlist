@@ -9,7 +9,29 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    flex: 1 0 100px;
+}
+
+.one {
+    background: grey;
+}
+
+.two {
+    background: limegreen;
+}
+
+.three {
+    background: lightseagreen;
+}
